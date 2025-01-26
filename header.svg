@@ -3,15 +3,19 @@
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 * {
-                font-family: monospace;
+                    font-family: monospace;
                 }
 
                 @media (prefers-color-scheme: dark) {
-                    color: white;
+                    * {
+                        color: white;
+                    }
                 }
 
                 @media (prefers-color-scheme: light) {
-                    color: white;
+                    * {
+                        color: black;
+                    }
                 }
 
                 .animate {
