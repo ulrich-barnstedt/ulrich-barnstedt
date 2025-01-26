@@ -39,16 +39,14 @@
                     }
                 }
             </style>
-            <div>
-                <h2>
-                    Hey!
-                </h2>
-                <p>
-                    My name is Ulrich, and I'm a young developer from Austria.
-                    <br/>
-                    You can find most of the projects I work on in my free time here on GitHub.
-                </p>
-            </div>
+            <h2 class="animate">
+                Hey!
+            </h2>
+            <p>
+                My name is Ulrich, and I'm a young developer from Austria.
+                <br/>
+                You can find most of the projects I work on in my free time here on GitHub.
+            </p>
         </div>
     </foreignObject>
 </svg>
