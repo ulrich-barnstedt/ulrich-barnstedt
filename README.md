@@ -1,3 +1,3 @@
-<h2 style="color: red;">
-  Hey!
-</h2>
+<div align="center">
+    <img class="image" src="header.svg" alt="Click to see the source">
+</div>
