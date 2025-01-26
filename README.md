@@ -1,7 +1,3 @@
-<h2 class="animate">
+<h2 style="color: red;">
   Hey!
 </h2>
-
-<style type="text/css">
-  h2 {color:red;}
-</style>
