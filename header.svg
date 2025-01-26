@@ -6,36 +6,45 @@
                 font-family: monospace;
                 }
 
+                @media (prefers-color-scheme: dark) {
+                    color: white;
+                }
+
+                @media (prefers-color-scheme: light) {
+                    color: white;
+                }
+
                 .animate {
-                font-weight: 800;
-                --bg-size: 400%;
-                background: black;
-                background: linear-gradient(in hsl shorter hue 90deg, red, orange, green, blue, indigo, violet, red) 0 0 / var(--bg-size) 100%;
-                color: transparent;
-                background-clip: text;
+                    font-weight: 800;
+                    --bg-size: 400%;
+                    background: black;
+                    background: linear-gradient(in hsl shorter hue 90deg, red, orange, green, blue, indigo, violet, red) 0 0 / var(--bg-size) 100%;
+                    color: transparent;
+                    background-clip: text;
                 }
 
                 @media (prefers-reduced-motion: no-preference) {
-                .animate {
-                animation: move-bg 24s linear infinite;
-                }
+                    .animate {
+                        animation: move-bg 24s linear infinite;
+                    }
 
-                @keyframes move-bg {
-                to {
-                background-position: var(--bg-size) 0;
-                }
-                }
+                    @keyframes move-bg {
+                        to {
+                            background-position: var(--bg-size) 0;
+                        }
+                    }
                 }
             </style>
-
-            <h2>
-                Hey!
-            </h2>
-            <p>
-                My name is Ulrich, and I'm a young developer from Austria.
-                <br/>
-                You can find most of the projects I work on in my free time here on GitHub (plus some old/abandoned ones <a href="https://github.com/ulrich-barnstedt-archive">in my archive</a>).
-            </p>
+            <div>
+                <h2>
+                    Hey!
+                </h2>
+                <p>
+                    My name is Ulrich, and I'm a young developer from Austria.
+                    <br/>
+                    You can find most of the projects I work on in my free time here on GitHub.
+                </p>
+            </div>
         </div>
     </foreignObject>
 </svg>
