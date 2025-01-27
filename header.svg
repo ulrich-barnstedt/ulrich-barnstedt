@@ -9,21 +9,20 @@
                 }
 
                 .animate {
-                    --bg-size: 400%;
                     background: black;
-                    background: linear-gradient(in hsl shorter hue 90deg, red, orange, green, blue, indigo, violet, red) 0 0 / var(--bg-size) 100%;
+                    background: linear-gradient(in hsl shorter hue 90deg, #ff0000, #00ff00, #4444ff, #ff0000) 0 0 / 600% 100%;
                     color: transparent;
                     background-clip: text;
                 }
 
                 @media (prefers-reduced-motion: no-preference) {
                     .animate {
-                        animation: move-bg 24s linear infinite;
+                        animation: move-bg 32s linear infinite;
                     }
 
                     @keyframes move-bg {
                         to {
-                            background-position: var(--bg-size) 0;
+                            background-position: 600% 0;
                         }
                     }
                 }
