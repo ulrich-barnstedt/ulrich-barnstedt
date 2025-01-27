@@ -1,25 +1,14 @@
-<svg fill="none" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
+<svg fill="none" height="24px" width="48px" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject x="0" y="0" width="48px" height="24px">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-                * {
+                h2 {
                     font-family: monospace;
-                }
-
-                @media (prefers-color-scheme: dark) {
-                    * {
-                        color: white;
-                    }
-                }
-
-                @media (prefers-color-scheme: light) {
-                    * {
-                        color: black;
-                    }
+                    font-weight: 800;
+                    margin: 0;
                 }
 
                 .animate {
-                    font-weight: 800;
                     --bg-size: 400%;
                     background: black;
                     background: linear-gradient(in hsl shorter hue 90deg, red, orange, green, blue, indigo, violet, red) 0 0 / var(--bg-size) 100%;
@@ -42,11 +31,6 @@
             <h2 class="animate">
                 Hey!
             </h2>
-            <p>
-                My name is Ulrich, and I'm a young developer from Austria.
-                <br/>
-                You can find most of the projects I work on in my free time here on GitHub.
-            </p>
         </div>
     </foreignObject>
 </svg>
